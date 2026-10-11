@@ -90,9 +90,9 @@ Updates the full course (all fields).
 ### 5. PATCH `http://localhost:3000/course/5`
 Updates only the given field(s).
 
-![PATCH update course](LabTask01/course-management-api/screenshots/06-patch-update-course.png)
+![PATCH update course](LabTask01/screenshots/06-patch-update-course.png)
 
 ### 6. DELETE `http://localhost:3000/course/5`
 Deletes the course with ID 5.
 
-![DELETE course](LabTask01/course-management-api/screenshots/07-delete-course.png)
+![DELETE course](LabTask01/screenshots/07-delete-course.png)
