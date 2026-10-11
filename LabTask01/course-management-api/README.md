@@ -68,31 +68,29 @@ Server runs at `http://localhost:3000`
 ### 1. GET `http://localhost:3000/course`
 Returns all courses.
 
-![GET all courses](LabTask01/screenshots/01-get-all-courses.png)
+![GET all courses](../screenshots/01-get-all-courses.png)
 
 ### 2. GET `http://localhost:3000/course/5`
 Returns the course with ID 5.
 
-![GET course by id](LabTask01/screenshots/02-get-course-by-id.png)
-
+![GET course by id](../screenshots/02-get-course-by-id.png)
 ### 3. POST `http://localhost:3000/course`
 Creates a new course. The server gives the next ID.
 
-![POST create course 1](LabTask01/screenshots/03-post-create-course-1.png)
+![POST create course 1](../screenshots/03-post-create-course-1.png)
 
-![POST create course 2](LabTask01/screenshots/04-post-create-course-2.png)
+![POST create course 2](../screenshots/04-post-create-course-2.png)
 
 ### 4. PUT `http://localhost:3000/course/5`
 Updates the full course (all fields).
 
-![PUT update course](LabTask01/screenshots/05-put-update-course.png)
+![PUT update course](../screenshots/05-put-update-course.png)
 
 ### 5. PATCH `http://localhost:3000/course/5`
 Updates only the given field(s).
 
-![PATCH update course](LabTask01/screenshots/06-patch-update-course.png)
-
+![PATCH update course](../screenshots/06-patch-update-course.png)
 ### 6. DELETE `http://localhost:3000/course/5`
 Deletes the course with ID 5.
 
-![DELETE course](LabTask01/screenshots/07-delete-course.png)
+![DELETE course](../screenshots/07-delete-course.png)
