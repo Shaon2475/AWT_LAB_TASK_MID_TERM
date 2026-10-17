@@ -83,7 +83,7 @@ All requests below were tested with Postman and returned a success status.
 
 ### 1. POST /course with empty name
 
-<img src="../screenShort/InvalidCheck/1.png" alt="POST /course without name - 400" width="720">
+<img src="../screenShort/InvalidCheck/1.1.png" alt="POST /course without name - 400" width="720">
 
 ### 2. POST /course with credits: 10
 
