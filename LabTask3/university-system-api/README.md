@@ -44,40 +44,47 @@ The server starts on **http://localhost:3000** (override with the `PORT` environ
 
 #### ✅ Test A1 — Get all courses
 
-- **Request:** `GET http://localhost:3000/course`
--
 
-![Test A1 - Get all courses](../screenshot/a1.png)
+![Test A1 - Get all courses](../screenshort/a1.png)
 
 #### ✅ Test A2 — Get course by ID
 
-- **Request:** `GET http://localhost:3000/course/101
+- **Request:** `GET http://localhost:3000/course/101`
 
-![Test A2 - Get course by ID](../screenshot/a2.png)
+
+![Test A2 - Get course by ID](../screenshort/a2.png)
 
 #### ✅ Test A3 — Create a course
 
 - **Request:** `POST http://localhost:3000/course`
 
-![Test A3 - Create course](../screenshot/a3.png)
+
+![Test A3 - Create course](../screenshort/a3.png)
 
 ---
 
 ### Part B — Inter-Module DI 
 
+
 #### ✅ Test B1 — Get all enrollments
 
-![Test B1 - Get enrollments](./screenshot/b1.png)
+- **Request:** `GET http://localhost:3000/enrollment`
+
+
+![Test B1 - Get enrollments](../screenshort/b1.png)
 
 #### ✅ Test B2 — Enroll a student (valid course)
 
+- **Request:** `POST http://localhost:3000/enrollment`
 
-![Test B2 - Enroll student](../screenshot/b2.png)
+![Test B2 - Enroll student](../screenshort/b2.png)
 
 #### ⚠️ Test B3 — Enroll a student (course ID that does not exist)
 
+- **Request:** `POST http://localhost:3000/enrollment`
+- 
 
-![Test B3 - Enroll with unknown course](../screenshot/b3.png)
+![Test B3 - Enroll with unknown course](../screenshort/b3.png)
 
 ---
 
@@ -86,22 +93,29 @@ The server starts on **http://localhost:3000** (override with the `PORT` environ
 
 #### ✅ Test C1 — Send a notification
 
-![Test C1 - Send notification](../screenshot/c1.png)
+- **Request:** `POST http://localhost:3000/notification/send`
+
+
+![Test C1 - Send notification](../screenshort/c1.png)
 
 #### ✅ Test C2 — Check enrollment and notify
 
+- **Request:** `POST http://localhost:3000/notification/check`
 
-![Test C2 - Check enrollment](../screenshot/c2.png)
+
+![Test C2 - Check enrollment](../screenshort/c2.png)
 
 #### ✅ Test C3 — Enroll a student and receive a notification
 
+- **Request:** `POST http://localhost:3000/enrollment`
 
-![Test C3 - Enroll with notification](../screenshot/c3.png)
+
+![Test C3 - Enroll with notification](../screenshort/c3.png)
 
 #### ✅ Test C4 — App starts without circular dependency errors
 
 
-![Test C4 - Application startup log](../screenshot/c4.png)
+![Test C4 - Application startup log](../screenshort/c4.png)
 
 
 ## 🏛️ Architecture Rules Followed
